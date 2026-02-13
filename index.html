@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>С Днём Святого Валентина!!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="valentines">
+            <div class="envelope">
+                <div class="card">
+                    <div class="text">
+                        <div class="recipient">
+                            Любимой
+                        </div>
+                        С Днём <br> Святого Валентина! &lt;3
+                        <div class="sender">
+                            От Любимого
+                        </div>
+                    </div>
+                    <div class="heart"></div>
+                </div>
+            </div>
+            <div class="front"></div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button onclick="playMP3()">Нажми меня</button>
+    </div>
+
+</body>
+
+<script>
+    // Чтобы сменить музыку, поменяй название файла в кавычках
+    var audioMP3 = new Audio("LoveNow.mp3");
+    function playMP3() {
+        audioMP3.play();
+        //console.log("Played")
+    }
+</script>
+
+</html>
