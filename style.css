@@ -3,7 +3,8 @@ body {
     place-items: center;
     min-height: 100vh;
     overflow: hidden;
-    background: #fae1dd;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('image.png') no-repeat center center fixed;
+background-size: cover;
 }
 
 .container {
